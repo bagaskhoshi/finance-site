@@ -1,0 +1,21 @@
+.text-primary {
+  color: black;
+}
+
+.text-secondary {
+  color: aqua;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: red;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}

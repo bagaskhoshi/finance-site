@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #fff;
+  color: #fff;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p {
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: red;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  padding: 0 30px;
+  top: 0;
+  opacity: 0.9;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar a:hover {
+  border-bottom: 10px solid #fff;
+  transition: 1s;
+}
+
+.navbar .logo {
+  font-weight: 900;
+  padding: 10px;
+}
+
+/* HEADER */
+.hero {
+  background: url("../images/home/hero.jpg") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+.hero .hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.hero .hero-content h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.hero .hero-content p {
+  font-size: 25px;
+  font-weight: 500px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero * {
+  z-index: 10;
+}
