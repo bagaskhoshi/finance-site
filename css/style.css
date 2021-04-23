@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -105,4 +109,13 @@ img {
 
 .hero * {
   z-index: 10;
+}
+
+.icons {
+  padding: 20px;
+}
+
+.icons h3 {
+  font-weight: bolder;
+  margin-bottom: 10px;
 }
