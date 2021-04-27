@@ -119,3 +119,7 @@ img {
   font-weight: bolder;
   margin-bottom: 10px;
 }
+
+.activity img:hover{
+  opacity: 0.7;
+}
